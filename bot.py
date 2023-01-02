@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+IezzVbvzlKxlODY1")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+GtlEa_yWrxRkNGVl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/greymatters_bots_discussion")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/DS_Botz"),
+                        InlineKeyboardButton(" Support Group", url="https://t.me/DSSupportGroup")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/greymatters_bots_discussion)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DSSupportGroup)",
                                      disable_web_page_preview=True)
             return
 
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+IezzVbvzlKxlODY1")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+GtlEa_yWrxRkNGVl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/greymatters_bots_discussion"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/DSSupportGroup"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/DS_Botz")
                     ]
                 ]
             )
@@ -411,7 +411,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/greymatters_bots_discussion"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/DSSupportGroup"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots")
                     ],
                     [
