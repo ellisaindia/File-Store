@@ -8,7 +8,7 @@ class Config(object):
 	API_HASH = "cceefd3382b44d4d85be2d83201102b7"
 	BOT_TOKEN = "5871176724:AAFrs9b6gliDYuW8MwIzUZm-5hBm7pNY5zk"
 	BOT_USERNAME = "File_Store_DS_Bot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001627368213)
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001627368213))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
 	DATABASE_URL = "mongodb+srv://Irfan:786or786@cluster0.2jjhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001606331367")
