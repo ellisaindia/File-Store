@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://bit.ly/3TddbNg")
+                                             url="https://t.me/DS_Botz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
