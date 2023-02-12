@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = 10956858
 	API_HASH = "cceefd3382b44d4d85be2d83201102b7"
-	BOT_TOKEN = "5972704618:AAEfa72xjr2ddZ2EcYTX0N3SFyL7hIqg_lU"
+	BOT_TOKEN = "5972704618:AAEQCfNJOh-m23HLQScT0abmUKXePbxyvyU"
 	BOT_USERNAME = "ellisa_files_bot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001794573996"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1017302540"))
@@ -34,7 +34,7 @@ class Config(object):
 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/ellisa_world)
 """
 	ABOUT_DEV_TEXT = f"""
-**𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [𝐈𝐫𝐟𝐚𝐧 𝐀𝐥𝐢](https://t.me/ellisa_support) 
+**𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Danger](https://t.me/ellisa_support) 
 
 𝐈𝐟 𝐘𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐃𝐨𝐧𝐚𝐭𝐞 𝐎𝐮𝐫 𝐇𝐚𝐫𝐝 𝐖𝐨𝐫𝐤. 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐡𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫. 
 """
