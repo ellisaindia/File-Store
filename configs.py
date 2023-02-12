@@ -8,7 +8,7 @@ class Config(object):
 	API_HASH = "cceefd3382b44d4d85be2d83201102b7"
 	BOT_TOKEN = "5972704618:AAEQCfNJOh-m23HLQScT0abmUKXePbxyvyU"
 	BOT_USERNAME = "ellisa_files_bot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001794573996"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001517118352"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1017302540"))
 	DATABASE_URL = "mongodb+srv://Irfan:786or786@cluster0.2jjhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001517118352")
@@ -29,7 +29,7 @@ class Config(object):
 
 **Developer:** [Danger](https://t.me/ellisa_support) 
 
-**Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/DSSupportGroup)
+**Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/ellisa_support_group)
 
 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/ellisa_world)
 """
