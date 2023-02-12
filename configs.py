@@ -25,16 +25,16 @@ class Config(object):
 
 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 
-**Hosted On:** [𝐕𝐏𝐒](https://t.me/Irfan50786)
+**Hosted On:** [𝐕𝐏𝐒](https://t.me/ellisa_support)
 
-**Developer:** [𝐈𝐫𝐟𝐚𝐧 𝐀𝐥𝐢](https://t.me/Irfan50786) 
+**Developer:** [Danger](https://t.me/ellisa_support) 
 
 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/DSSupportGroup)
 
-**Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/DS_Botz)
+**Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/ellisa_world)
 """
 	ABOUT_DEV_TEXT = f"""
-**𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [𝐈𝐫𝐟𝐚𝐧 𝐀𝐥𝐢](https://t.me/Irfan50786) 
+**𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [𝐈𝐫𝐟𝐚𝐧 𝐀𝐥𝐢](https://t.me/ellisa_support) 
 
 𝐈𝐟 𝐘𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐃𝐨𝐧𝐚𝐭𝐞 𝐎𝐮𝐫 𝐇𝐚𝐫𝐝 𝐖𝐨𝐫𝐤. 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐡𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫. 
 """
