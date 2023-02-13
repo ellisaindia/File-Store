@@ -4,8 +4,8 @@ import os
 
 
 class Config(object):
-	API_ID = 10956858
-	API_HASH = "cceefd3382b44d4d85be2d83201102b7"
+	API_ID = 18424928
+	API_HASH = "d12e98533ee6d6222e63dac56c504913"
 	BOT_TOKEN = "5972704618:AAEzQyPgjDrkxSSxdHP7Ol1B0F9Sfcpz4IE"
 	BOT_USERNAME = "ellisa_files_bot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001728534546"))
@@ -13,10 +13,10 @@ class Config(object):
 	DATABASE_URL = "mongodb+srv://Irfan:786or786@cluster0.2jjhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001517118352")
 	LOG_CHANNEL = "-1001794573996"
-	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
+	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
+	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
 **My Name:** [𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭](https://t.me/{BOT_USERNAME})
