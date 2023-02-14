@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = 18424928
 	API_HASH = "d12e98533ee6d6222e63dac56c504913"
-	BOT_TOKEN = "5972704618:AAEzQyPgjDrkxSSxdHP7Ol1B0F9Sfcpz4IE"
+	BOT_TOKEN = "5972704618:AAHNV97qrU38FOBXAhQUJ8jj6sufcNwWpr4"
 	BOT_USERNAME = "ellisa_files_bot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001728534546"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1017302540"))
